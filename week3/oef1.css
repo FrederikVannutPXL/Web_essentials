@@ -1,0 +1,25 @@
+table{
+    border: solid #c7ced8 10px;
+    color:white;
+    font-family: Arial;
+    border-collapse: collapse;
+}
+th{
+    background-color:#27426d;
+    font-style: normal;
+    width: 150px;
+    border: solid 1px black;
+
+}
+tbody tr:nth-child(odd){
+    background-color: #4f8cef;
+    text-align: center;
+}
+tbody tr:nth-child(even){
+    background-color: #6facff;
+    text-align: center;
+}
+td{
+   border: solid 1px black;
+
+}

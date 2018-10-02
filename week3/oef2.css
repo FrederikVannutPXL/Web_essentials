@@ -1,0 +1,40 @@
+tr:nth-child(odd) td:nth-child(odd){
+     background-image: url("Images/witte-marmer.jpg");
+ }
+tr:nth-child(odd) td:nth-child(even){
+    background-image: url("Images/zwarte-marmer.jpg");
+
+}
+tr:nth-child(even) td:nth-child(odd){
+    background-image:url("Images/zwarte-marmer.jpg");
+}
+tr:nth-child(even) td:nth-child(even){
+    background-image:url("Images/witte-marmer.jpg");
+}
+td{
+    height:50px;
+    width:50px;
+    text-align: center;
+    border: solid 2px saddlebrown;
+}
+table{
+    border: solid black 5px;
+    border-collapse: collapse;
+}
+article {
+    float:right;
+    border:solid black 4px;
+    width: 30%;
+    display:inline;
+    text-align: center;
+    background-image:url("Images/witte-marmer.jpg");
+    margin-right: 20px;
+}
+table{
+    float:left;
+}
+body{
+    background-image: url("Images/hout.jpg");
+    width: 100%;
+    height: 100%;
+}

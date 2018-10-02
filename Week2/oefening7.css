@@ -1,0 +1,12 @@
+header h1{
+    color: #ffe14f;
+    text-align:center;
+}
+body{
+    background-color: #151c28;
+}
+article{
+    border: #ffe14f solid 2px;
+    margin-right: 35%;
+    margin-left: 35%;
+}
